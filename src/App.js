@@ -39,6 +39,7 @@ function App() {
                         <Header/>
                         <Suspense fallback={ <span></span>}>
                             <Switch>
+                                <Redirect from="/reach-shoes" to="/" exact/>
                                 <Route path="/" component = { Home } exact/>
                                 
 
