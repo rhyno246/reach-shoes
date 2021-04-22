@@ -1,0 +1,31 @@
+.sale-product{
+    background: #f0f0f0;
+    padding-bottom: 50px;
+    .title-product  {
+        h2{
+            span{
+                color: #80CBC4;
+                background: #f0f0f0;
+                padding: 0 10px;
+                padding-left: 0;
+                position: inherit;
+                z-index: 999;
+                
+            }
+            &::after{
+                z-index: 0;
+            }
+        }
+    }
+}
+.slick-slide{
+    padding: 0 5px;      
+}
+
+.ant-card-cover {
+    img{
+        object-fit: cover;
+        height: 100%;
+        object-position: center;
+    }
+}

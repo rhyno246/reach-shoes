@@ -1,0 +1,40 @@
+.cart{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-top: auto;
+    .group-checkout{
+        text-align: right;
+        margin-top: 30px;
+        .total{
+            font-size: 20px;
+            color: brown;
+            margin-bottom: 20px;
+        }
+    }
+    .emtry-cart{
+        text-align: center;
+        img{
+            max-width: 100%;
+        }
+        .txt{
+            margin-top: 30px;
+            font-size: 22px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .continue{
+            text-decoration: none;
+            background: #3f51b5;
+            padding: 10px 25px;
+            border-radius: 5px;
+            color: #fff;
+        }
+    }
+    .ant-btn-primary{
+        color: #fff;
+        border-color : #80CBC4;
+        background: #80CBC4;
+    }
+}
+
